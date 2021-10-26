@@ -1,6 +1,6 @@
 # importing required modules
 import cv2
-import pandas as pd
+import pandas as pdo
 
 # Reading the image with opencv
 img = cv2.imread('Sample.png')
@@ -14,7 +14,7 @@ r = g = b = xpos = ypos = 0
 
 # Reading csv file with pandas and giving names to each column
 index = ["color", "color_name", "hex", "R", "G", "B"]
-csv = pd.read_csv('colors.csv', names=index, header=None)
+csv = pdo.read_csv('colors.csv', names=index, header=None)
 
 
 # function to calculate minimum distance from all colors and get the most matching color
