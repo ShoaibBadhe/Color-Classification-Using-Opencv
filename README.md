@@ -4,5 +4,5 @@ Used cv2.setmouseonclick method ,when you click a particular area on image,it wi
 
 To run the script 
 ```
-$ python Colors\ Classification.py -i images/Sample4.py
+$ python Colors\ Classification.py -i images/Sample2.py
 ```
