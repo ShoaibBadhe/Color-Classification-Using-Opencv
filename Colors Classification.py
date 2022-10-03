@@ -32,7 +32,7 @@ def getColorName(R, G, B):
 def draw_function(event, x, y, flags, param):
     if event == cv2.EVENT_LBUTTONUP:
         global b, g, r, xpos, ypos, clicked
-        clicked = True
+        Clicked = True
         xpos = x
         ypos = y
         b, g, r = img[y, x]
