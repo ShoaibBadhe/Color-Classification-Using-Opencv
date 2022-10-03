@@ -42,7 +42,7 @@ def draw_function(event, x, y, flags, param):
 
 
 cv2.namedWindow('image')
-cv2.setMouseCallback('image', draw_function)
+cv2.setMouseCallback('image', drawFunction)
 
 while 1:
 
