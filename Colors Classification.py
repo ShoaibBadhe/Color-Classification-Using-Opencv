@@ -47,7 +47,7 @@ cv2.setMouseCallback('image', draw_function)
 while 1:
 
     cv2.imshow("image", img)
-    if clicked:
+    if Clicked:
 
         cv2.rectangle(img, (20, 20), (500, 60), (b, g, r), -1)
 
