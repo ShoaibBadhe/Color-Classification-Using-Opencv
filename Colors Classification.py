@@ -6,7 +6,7 @@ import pandas as pd
 img = cv2.imread('Sample.png')
 
 # resize img
-img = cv2.resize(img, (550, 350))
+img = cv2.resize(img, (450, 350))
 
 # declaring global variables (are used later on)
 Clicked = False
