@@ -8,7 +8,7 @@ img = cv2.imread('Sampl.png')
 # resize img
 img = cv2.resize(img, (450, 350))
 
-# declaring global variables (are used later on)
+
 Clicked = False
 r = g = b = xpos = ypos = 0
 
