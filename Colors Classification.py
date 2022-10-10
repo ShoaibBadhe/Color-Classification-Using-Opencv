@@ -3,7 +3,7 @@ import cv2
 import pandas as pd
 
 # Reading the image with opencv
-img = cv2.imread('Sample.png')
+img = cv2.imread('Sampl.png')
 
 # resize img
 img = cv2.resize(img, (450, 350))
